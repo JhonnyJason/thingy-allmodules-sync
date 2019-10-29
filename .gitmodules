@@ -1,0 +1,12 @@
+[submodule "toolset"]
+	path = toolset
+	url = git@github.com:JhonnyJason/toolset.git
+[submodule "sources"]
+	path = sources
+	url = git@github.com:JhonnyJason/thingy-allmodules-sync-sources.git
+[submodule "output"]
+	path = output
+	url = git@github.com:JhonnyJason/thingy-allmodules-sync-output.git
+[submodule "testing"]
+	path = testing
+	url = git@github.com:JhonnyJason/thingy-allmodules-sync-testing.git
