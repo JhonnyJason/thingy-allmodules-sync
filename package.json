@@ -1,6 +1,6 @@
 {
     "name": "thingy-allmodules-sync",
-    "version": "0.0.1",
+    "version": "0.1.2",
     "description": "This is the shit!",
     "scripts": {
         "build-coffee": "coffee -o output/ -c sources/source/*/*.coffee",
@@ -17,7 +17,7 @@
         "merge-dir-sourcemodule": "run-s -ns  \"sourcemodulecreate directory,{1},merge,{2}\"  --",
         "sourcemodule-to-sub": "run-s \"sourcemodulecreate submodule,{1}\" --",
         "sourcemodule-to-dir": "run-s \"sourcemodulecreate directory,{1}\" --",
-        "push": "thingysync push --message --",
+        "push": "thingysync push --message",
         "pull": "thingysync pull",
         "postinstall": "npm run initialize-thingy",
         "initialize-thingy": "run-s -ns build",
@@ -40,7 +40,7 @@
     "bugs": {
         "url": "https://github.com/JhonnyJason/thingy-allmodules-sync/issues"
     },
-    "homepage": "https://github.com/JhonnyJason/thingy-allmodules-sync#readme",
+    "homepage": "https://github.com/JhonnyJason/thingy-allmodules-sync-output#readme",
     "dependencies": {
         "coffeescript": "^2.5.1",
         "npm-check-updates": "^4.0.1",
